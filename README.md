@@ -50,7 +50,7 @@ Tizen
 ## WebRTC frameworks and solution ##
 
 ### frontend & backend ###
-(mediasoup) [https://mediasoup.org/] - works with 
+mediasoup [https://mediasoup.org/] 
 
 ### react ###
 mediasoup
@@ -59,19 +59,15 @@ mediasoup
 
 ### backend ###
 #### python ####
-
+aiortc
 https://github.com/aiortc/aiortc
 
 #### golang ####
 pion
+https://github.com/pion/webrtc
 #### rast ####
 mediasoup
 
 #### node ####
 mediasoup
-
-
-
-
-
 

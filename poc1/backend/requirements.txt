@@ -1,0 +1,4 @@
+fastapi
+aiortc
+aiofiles
+uvicorn
