@@ -14,16 +14,32 @@ How do we do that
 
 ## technological challenges  ##
 
-Video chat 
-Multi point video chat ( moderator + discussing parties ) 
-Recording video 
+- Video chat 
+- Multi point video chat ( moderator + discussing parties ) 
+- Recording video
+- automated moderation
+
 
 ## the technology ##
 
 When I start developing a product/application I am looking for the most complex element in this product. 
+
 The most common video chat and conferencing solution is WebRTC - it is supported on most modern browsers and has multiple backend tools and solutions. 
+
 I would rather not choose development stack (golang for backend, react for frontend) and than see what tools do I have for this stack to implement video, 
+
 but I would rather look for solution and choose the technological stack that is using this solution. 
+
+
+### the poc ###
+We are trying to get base functionality for 
+- Two party video chat
+- 3 parties video chat/conferencing  
+- Server matching 
+- Server recording video
+- Server based moderation 
+
+We are going to use multiple libraries for both frontend and backend and se which one was the easiest to work with
 
 
 ### browser support of webrtc ###
@@ -70,4 +86,6 @@ mediasoup
 
 #### node ####
 mediasoup
+
+
 
